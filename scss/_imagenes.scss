@@ -1,0 +1,121 @@
+.img1{
+    transition:all 500ms ;
+    opacity: 70%;
+    filter: grayscale(100);
+    border-radius: 1cm;
+}
+.img1:hover{
+    transform: scale(1.03,1.03);
+    opacity: 100%;
+    filter: grayscale(0);
+}
+.imgPadding{
+    padding: 15px;
+    margin-left: 0px;
+}
+.back{
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    inline-size: 80%;
+    padding: 30px;
+    margin: 10px;
+    position: relative;
+}
+.parallax{
+    height: 500px;
+    background-image: url('../Assets/Imagenes/pcR.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position:top;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: block;    
+}
+.parallaxComercios{
+    height: 400px;
+    background-image: url('../Assets/Imagenes/dev.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position:top;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+}
+.parallaxParticulares{
+    height: 400px;
+    background-image: url('../Assets/Imagenes/diskR.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position:top;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    }
+.parallaxNosotros{
+    height: 400px;
+    background-image: url('../Assets/Imagenes/nosotros.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position:top;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    }
+.parallaxContacto{
+    height: 400px;
+    background-image: url('../Assets/Imagenes/contacto.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position:top;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    }
+  @media only screen and (max-width: 767px){
+        .parallaxContacto{
+            height: 400px;
+            background-image: url('../Assets/Imagenes/contacto_mobile.jpg');
+            background-size:contain;
+            background-repeat: no-repeat;
+            background-attachment:fixed;
+            background-position-y:150px;
+            }
+            .parallaxParticulares{
+                height: 400px;
+                background-image: url('../Assets/Imagenes/diskRMobile.jpg');
+                background-size:contain;
+                background-repeat: no-repeat;
+                background-attachment:fixed;
+                background-position-y:150px; 
+            }
+            .parallaxNosotros{
+                height: 400px;
+                background-image: url('../Assets/Imagenes/nosotrosMobile.jpg');
+                background-size:contain;
+                background-repeat: no-repeat;
+                background-attachment:fixed;
+                background-position-y:150px;
+            }
+                .parallaxComercios{
+                height: 400px;
+                background-image: url('../Assets/Imagenes/devMobile.jpg');
+                background-size:contain;
+                background-repeat: no-repeat;
+                background-attachment:fixed;
+                background-position-y:150px;
+            }
+        }
+        .opaco{
+    opacity: 40%;
+}
